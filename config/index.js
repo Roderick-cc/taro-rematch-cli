@@ -2,9 +2,11 @@
  * @Description: 
  * @Author: shide
  * @Date: 2021-04-19 19:44:12
- * @LastEditTime: 2021-04-19 19:50:07
+ * @LastEditTime: 2021-04-20 20:28:08
  * @FilePath: /taro-cli/config/index.js
  */
+const path = require('path')
+
 const config = {
   projectName: 'taro-cli',
   date: '2021-4-19',
@@ -26,6 +28,10 @@ const config = {
     }
   },
   framework: 'react',
+  alias: {
+    '@': path.resolve(__dirname, '..', 'src'),
+    '@/store': path.resolve(__dirname, '..', 'src/store'),
+  },
   mini: {
     postcss: {
       pxtransform: {
