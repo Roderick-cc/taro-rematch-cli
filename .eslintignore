@@ -1,0 +1,9 @@
+dist/
+eslint/
+/node_modules
+/config
+*.d.ts
+stylelint.config.js
+.stylelintReport.txt
+.eslintrc.js
+babel.config.js

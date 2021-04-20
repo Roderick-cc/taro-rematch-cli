@@ -27,6 +27,9 @@
     "dev:qq": "npm run build:qq -- --watch",
     "dev:jd": "npm run build:jd -- --watch",
     "dev:quickapp": "npm run build:quickapp -- --watch",
+    "lint": "cross-env LINT_MODE=prod eslint \"**/*.{js,jsx,ts,tsx}\" && npm run lint:css",
+    "lint:rep": "cross-env LINT_MODE=prod eslint \"**/*.{js,jsx,ts,tsx}\" -o ./.eslintReport.txt",
+    "lint:fix": "cross-env LINT_MODE=prod eslint --fix \"**/*.{js,jsx,ts,tsx}\" && npm run lint:css:fix",
     "lint:css": "stylelint \"**/*.{css,less,scss,sass}\" ",
     "lint:css:fix": "stylelint \"**/*.{css,less,scss,sass}\" --fix",
     "lint:css:rep": "stylelint \"**/*.{css,less,scss,sass}\" --fix -o .stylelintReport.txt"
@@ -56,6 +59,7 @@
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "babel-preset-taro": "3.2.1",
+    "cross-env": "^7.0.3",
     "eslint": "^6.8.0",
     "eslint-config-taro": "3.2.1",
     "eslint-plugin-import": "^2.12.0",
