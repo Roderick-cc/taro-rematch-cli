@@ -1,0 +1,56 @@
+[0m[0m
+[0m[4m/Users/shide/Taro/taro-cli/src/app.tsx[24m[0m
+[0m  [2m10:26[22m  [31merror[39m  Absolute imports should come before relative imports  [2mimport/first[22m[0m
+[0m  [2m11:19[22m  [31merror[39m  Absolute imports should come before relative imports  [2mimport/first[22m[0m
+[0m[0m
+[0m[4m/Users/shide/Taro/taro-cli/src/pages/index/service.ts[24m[0m
+[0m  [2m23:3[22m  [31merror[39m  Unexpected console statement  [2mno-console[22m[0m
+[0m[0m
+[0m[4m/Users/shide/Taro/taro-cli/src/pages/index/view.tsx[24m[0m
+[0m  [2m18:15[22m  [31merror[39m    Missing return type on function  [2m@typescript-eslint/explicit-function-return-type[22m[0m
+[0m  [2m18:15[22m  [33mwarning[39m  Missing return type on function  [2m@typescript-eslint/explicit-module-boundary-types[22m[0m
+[0m  [2m22:12[22m  [31merror[39m    Missing return type on function  [2m@typescript-eslint/explicit-function-return-type[22m[0m
+[0m  [2m22:18[22m  [31merror[39m    Unexpected empty arrow function  [2mno-empty-function[22m[0m
+[0m  [2m22:18[22m  [31merror[39m    Unexpected empty arrow function  [2m@typescript-eslint/no-empty-function[22m[0m
+[0m  [2m23:6[22m   [31merror[39m    Extra semicolon                  [2msemi[22m[0m
+[0m  [2m24:9[22m   [31merror[39m    Extra semicolon                  [2msemi[22m[0m
+[0m  [2m35:21[22m  [31merror[39m    Extra semicolon                  [2msemi[22m[0m
+[0m[0m
+[0m[4m/Users/shide/Taro/taro-cli/src/store/models/global.ts[24m[0m
+[0m  [2m42:5[22m  [31merror[39m  Identifier 'SAVE_inti_data' is not in camel case  [2mcamelcase[22m[0m
+[0m[0m
+[0m[4m/Users/shide/Taro/taro-cli/src/store/models/index.ts[24m[0m
+[0m  [2m9:1[22m  [31merror[39m  Expected 1 empty line after import statement not followed by another import  [2mimport/newline-after-import[22m[0m
+[0m[0m
+[0m[4m/Users/shide/Taro/taro-cli/src/utils/globalConfig.ts[24m[0m
+[0m   [2m9:32[22m  [31merror[39m  Extra semicolon                            [2msemi[22m[0m
+[0m  [2m12:17[22m  [31merror[39m  Extra semicolon                            [2msemi[22m[0m
+[0m  [2m13:24[22m  [31merror[39m  Extra semicolon                            [2msemi[22m[0m
+[0m  [2m26:9[22m   [31merror[39m  Identifier 'dev_env' is not in camel case  [2mcamelcase[22m[0m
+[0m  [2m26:49[22m  [31merror[39m  Extra semicolon                            [2msemi[22m[0m
+[0m  [2m28:11[22m  [31merror[39m  Identifier 'dev_env' is not in camel case  [2mcamelcase[22m[0m
+[0m  [2m28:18[22m  [31merror[39m  Extra semicolon                            [2msemi[22m[0m
+[0m  [2m31:13[22m  [31merror[39m  Empty block statement                      [2mno-empty[22m[0m
+[0m  [2m50:48[22m  [31merror[39m  Extra semicolon                            [2msemi[22m[0m
+[0m  [2m51:44[22m  [31merror[39m  Extra semicolon                            [2msemi[22m[0m
+[0m  [2m52:33[22m  [31merror[39m  Extra semicolon                            [2msemi[22m[0m
+[0m  [2m57:28[22m  [31merror[39m  Extra semicolon                            [2msemi[22m[0m
+[0m[0m
+[0m[4m/Users/shide/Taro/taro-cli/src/utils/request.ts[24m[0m
+[0m  [2m15:16[22m  [33mwarning[39m  Missing return type on function                      [2m@typescript-eslint/explicit-module-boundary-types[22m[0m
+[0m  [2m15:16[22m  [31merror[39m    Missing return type on function                      [2m@typescript-eslint/explicit-function-return-type[22m[0m
+[0m  [2m15:16[22m  [31merror[39m    Functions that return promises must be async         [2m@typescript-eslint/promise-function-async[22m[0m
+[0m  [2m23:4[22m   [31merror[39m    Extra semicolon                                      [2msemi[22m[0m
+[0m  [2m27:13[22m  [31merror[39m    Expected parentheses around arrow function argument  [2marrow-parens[22m[0m
+[0m  [2m37:36[22m  [31merror[39m    No magic number: 0                                   [2mno-magic-numbers[22m[0m
+[0m  [2m37:66[22m  [31merror[39m    Extra semicolon                                      [2msemi[22m[0m
+[0m  [2m39:63[22m  [31merror[39m    Extra semicolon                                      [2msemi[22m[0m
+[0m  [2m40:35[22m  [31merror[39m    Extra semicolon                                      [2msemi[22m[0m
+[0m  [2m41:82[22m  [31merror[39m    Extra semicolon                                      [2msemi[22m[0m
+[0m  [2m42:20[22m  [31merror[39m    Extra semicolon                                      [2msemi[22m[0m
+[0m  [2m44:14[22m  [31merror[39m    Expected parentheses around arrow function argument  [2marrow-parens[22m[0m
+[0m  [2m45:16[22m  [31merror[39m    Extra semicolon                                      [2msemi[22m[0m
+[0m[0m
+[0m[31m[1m✖ 38 problems (36 errors, 2 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[31m[1m  23 errors and 0 warnings potentially fixable with the `--fix` option.[22m[39m[0m
+[0m[31m[1m[22m[39m[0m

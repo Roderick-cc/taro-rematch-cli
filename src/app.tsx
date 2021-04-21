@@ -2,13 +2,13 @@
  * @Description: 
  * @Author: shide
  * @Date: 2021-04-19 19:44:12
- * @LastEditTime: 2021-04-20 20:27:59
+ * @LastEditTime: 2021-04-21 12:08:26
  * @FilePath: /taro-cli/src/app.tsx
  */
 import React from 'react'
-import './app.scss'
 import { Provider } from 'react-redux'
 import store from '@/store'
+import './app.scss'
 
 
 

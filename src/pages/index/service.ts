@@ -1,6 +1,23 @@
 import { RootState, Dispatch } from '@/store'
 import { connect } from 'react-redux'
-import { IndexBaseProp, IndexDispatch } from './view'
+
+import {
+  RequesPayloadInfo,
+  ResponseInfo
+} from '@/type/api/global'
+
+
+/** 基础订阅道具 */
+export interface IndexBaseProp {
+  initData?: ResponseInfo
+
+}
+
+/** 基础订阅方法 */
+export interface IndexDispatch {
+  getInitModel: (payload: RequesPayloadInfo) => Promise<void | ResponseInfo>
+}
+
 
 const mapState = (state: RootState): IndexBaseProp => {
   return {
