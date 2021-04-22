@@ -2,7 +2,7 @@
  * @Description: index page
  * @Author: shide
  * @Date: 2021-04-19 19:44:12
- * @LastEditTime: 2021-04-22 16:41:58
+ * @LastEditTime: 2021-04-22 16:44:33
  * @FilePath: /taro-cli/src/pages/index/view.tsx
  */
 import React, { useEffect } from 'react'
@@ -15,9 +15,10 @@ interface Iindex extends IndexBaseProp, IndexDispatch {
 
 }
 
-const Index: React.FC<> = (): JSX.Element => {
+const Index: React.FC<Iindex> = (): JSX.Element => {
 
   useEffect(() => {
+    console.log('123')
     // props.getInitModel({ id: 1, pageNow: 1, pageSize: 10 });
   }, [])
 
