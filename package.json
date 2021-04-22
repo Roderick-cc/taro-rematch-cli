@@ -32,7 +32,8 @@
     "lint:fix": "cross-env LINT_MODE=prod eslint --fix \"**/*.{js,jsx,ts,tsx}\" && npm run lint:css:fix",
     "lint:css": "stylelint \"**/*.{css,less,scss,sass}\" ",
     "lint:css:fix": "stylelint \"**/*.{css,less,scss,sass}\" --fix",
-    "lint:css:rep": "stylelint \"**/*.{css,less,scss,sass}\" --fix -o .stylelintReport.txt"
+    "lint:css:rep": "stylelint \"**/*.{css,less,scss,sass}\" --fix -o .stylelintReport.txt",
+    "prepare": "husky install"
   },
   "browserslist": [
     "last 3 versions",
