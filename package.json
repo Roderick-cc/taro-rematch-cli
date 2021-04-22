@@ -40,11 +40,6 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
-  },
   "lint-staged": {
     "*.scss": "stylelint --syntax scss",
     ".{.tsx,.js.ts}": [
