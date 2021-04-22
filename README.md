@@ -2,13 +2,19 @@
  * @Description:
  * @Author: shide
  * @Date: 2021-04-20 18:58:02
- * @LastEditTime: 2021-04-20 18:59:56
+ * @LastEditTime: 2021-04-22 18:19:00
  * @FilePath: /taro-cli/README.md
 -->
 
 # taro cli
 
-eslint+styleint+rematch+taro
+This project base taro/react,integrated status management, code commit verification, ready to start
+
+# Technology stack
+taro/react
+typescript
+reamtch
+
 
 # npm
 
