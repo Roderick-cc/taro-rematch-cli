@@ -18,7 +18,7 @@ interface Iindex extends IndexBaseProp, IndexDispatch {
 const Index: React.FC<Iindex> = (): JSX.Element => {
 
   useEffect(() => {
-    console.log('123')
+    console.log('123');
     // props.getInitModel({ id: 1, pageNow: 1, pageSize: 10 });
   }, [])
 
