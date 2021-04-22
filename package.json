@@ -45,8 +45,8 @@
     }
   },
   "lint-staged": {
-    "**/*.scss": "stylelint --syntax scss",
-    "**/*.{.tsx,.js.ts}": [
+    "*.scss": "stylelint --syntax scss",
+    "*.{.tsx,.js.ts}": [
       "eslint --fix --ext .tsx",
       "git add"
     ]
