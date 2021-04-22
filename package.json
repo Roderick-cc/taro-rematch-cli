@@ -39,8 +39,14 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "*{.tsx,.js}": [
+    "**/*.scss": "stylelint --syntax scss",
+    "**/*.{.tsx,.js.ts}": [
       "eslint --fix --ext .tsx",
       "git add"
     ]
