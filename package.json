@@ -9,15 +9,15 @@
     "css": "sass"
   },
   "scripts": {
-    "build:weapp": "taro build --type weapp",
-    "build:swan": "taro build --type swan",
-    "build:alipay": "taro build --type alipay",
-    "build:tt": "taro build --type tt",
-    "build:h5": "taro build --type h5",
-    "build:rn": "taro build --type rn",
-    "build:qq": "taro build --type qq",
-    "build:jd": "taro build --type jd",
-    "build:quickapp": "taro build --type quickapp",
+    "build:weapp": "npm runlint && taro build --type weapp",
+    "build:swan": "npm runlint && taro build --type swan",
+    "build:alipay": "npm runlint && taro build --type alipay",
+    "build:tt": "npm runlint && taro build --type tt",
+    "build:h5": "npm runlint && taro build --type h5",
+    "build:rn": "npm runlint && taro build --type rn",
+    "build:qq": "npm runlint && taro build --type qq",
+    "build:jd": "npm runlint && taro build --type jd",
+    "build:quickapp": "npm runlint && taro build --type quickapp",
     "dev:weapp": "npm run build:weapp -- --watch",
     "dev:swan": "npm run build:swan -- --watch",
     "dev:alipay": "npm run build:alipay -- --watch",
@@ -39,6 +39,12 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
+  "lint-staged": {
+    "*{.ts,.js}": [
+      "eslint --ext .tsx,.ts --fix ./src",
+      "git add"
+    ]
+  },
   "author": "",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
@@ -70,9 +76,14 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-shide": "^1.0.0",
+    "eslint-plugin-taro": "^3.2.2",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
     "stylelint": "^13.12.0",
     "stylelint-config-sass-guidelines": "^8.0.0",
     "stylelint-config-standard": "^21.0.0",
+    "stylelint-shide": "^1.0.0",
     "typescript": "^4.1.0"
   }
 }
